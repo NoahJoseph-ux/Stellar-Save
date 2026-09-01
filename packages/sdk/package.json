@@ -13,7 +13,7 @@
     }
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json",
+    "build": "node init && tsc --project tsconfig.json",
     "test": "vitest run",
     "lint": "eslint src"
   },
